@@ -1,15 +1,15 @@
-This is a Chat App built using Socket.io and MongoDB Atlas
+This is a Chat App built using Socket.io, and MongoDB Atlas
 
 To Run
 
-1. npm install
+1)npm install
 
-2. npm install -g nodemon
+2)npm install socket.io
 
-3)npm install socket.io
-
-4)npm install dotenv
+4)npm install dotenv nodemon mongoose 
 
 5)nodemon server.js
 
-Also make sure to add your mongodb_uri in .env file.
+Create a .env file in the main directory and add the mongodb connection string like this :
+
+DB_CONNECTION=<your connection string>
